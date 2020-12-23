@@ -25,6 +25,7 @@ body{
     display:flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     width:400px;
     height:400px;
     position:absolute;
@@ -56,17 +57,19 @@ h1{
     color:#fff;
     font-size:32px;
 }
+.js-form{
+    width:90%;
+    background-color: red;
+}
 .js-form.form.showing input{
     background:none;
     color:#fff;
     font-size:32px;
     z-index:4;
-    padding-left:16px;
-
 }
 .js-form.form.showing input::placeholder{
     color:#fff;
-    text-align:center;
+    text-align:left;
     font-weight: normal;
 }
 
