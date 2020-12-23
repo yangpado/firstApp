@@ -136,3 +136,45 @@ h1{
     margin-right:16px;
     top:16px;
 }
+
+/* for responsive web */
+@media screen and (max-width:1252px){
+    .logo{
+        display:none;
+    }
+    .appWrap{
+        width:200px;
+        height:200px;
+    }
+    h1{
+        font-size:50px;
+    }
+    .showing{
+        font-size:16px;
+    }
+    .js-form.form.showing input{
+        font-size:16px;
+    }
+    .todoWrap{
+        width:45%;
+        bottom:5%;
+        left:50%;
+        transform:translateX(-50%);
+    }
+    .todoWrap input{
+        width:90%;
+        font-size:16px;
+        padding-bottom:0px;
+        margin-bottom:8px;
+    }
+    .todoWrap input::placeholder{
+        font-size: 16px;
+    }
+    .js-todoForm{
+        margin-right:0;
+    }
+    .js-weather{
+        right:16px;
+        margin-right:0;
+    }
+}
